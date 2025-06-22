@@ -85,17 +85,17 @@ export default function Home() {
             <img 
               src={logoPath} 
               alt="L'vue Bakery Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           <ul className="hidden md:flex space-x-8">
-            <li><a href="#home" className="nav-link text-navy hover:text-gold transition-colors font-medium">Home</a></li>
-            <li><a href="#about" className="nav-link text-navy hover:text-gold transition-colors font-medium">About</a></li>
-            <li><a href="#specialties" className="nav-link text-navy hover:text-gold transition-colors font-medium">Specialties</a></li>
-            <li><a href="#instagram" className="nav-link text-navy hover:text-gold transition-colors font-medium">Instagram</a></li>
-            <li><a href="#contact" className="nav-link text-navy hover:text-gold transition-colors font-medium">Contact</a></li>
+            <li><a href="#home" className="nav-link text-white hover:text-gold transition-colors font-medium">Home</a></li>
+            <li><a href="#about" className="nav-link text-white hover:text-gold transition-colors font-medium">About</a></li>
+            <li><a href="#specialties" className="nav-link text-white hover:text-gold transition-colors font-medium">Specialties</a></li>
+            <li><a href="#instagram" className="nav-link text-white hover:text-gold transition-colors font-medium">Instagram</a></li>
+            <li><a href="#contact" className="nav-link text-white hover:text-gold transition-colors font-medium">Contact</a></li>
           </ul>
-          <button className="md:hidden text-2xl text-navy">
+          <button className="md:hidden text-2xl text-white">
             <i className="fas fa-bars"></i>
           </button>
         </div>
