@@ -87,9 +87,6 @@ export default function Home() {
               alt="L'vue Bakery Logo" 
               className="h-8 w-auto"
             />
-            <a href="#home" className="text-2xl font-bold text-gold font-serif">
-              L'vue Bakery
-            </a>
           </div>
           <ul className="hidden md:flex space-x-8">
             <li><a href="#home" className="nav-link text-navy hover:text-gold transition-colors font-medium">Home</a></li>
@@ -452,7 +449,6 @@ export default function Home() {
                 alt="L'vue Bakery Logo" 
                 className="h-8 w-auto"
               />
-              <div className="bakery-footer-logo">L'vue Bakery</div>
             </div>
             <p className="text-center text-white/80">
               &copy; 2024 L'vue Bakery. All rights reserved. Baking memories daily.
