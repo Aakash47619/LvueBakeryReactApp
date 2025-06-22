@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import logoPath from "@assets/lvue logo upscaled_1750581455836.png";
+import logoPath from "@assets/Lvue glow logo_1750583470423.png";
 
 declare global {
   interface Window {
@@ -170,7 +170,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Artisan Croissants</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Artisan Croissants</h3>
                 <p className="text-gray-600">
                   Buttery, flaky perfection made with French techniques. Our signature croissants are laminated 
                   with premium European butter for that perfect golden crisp.
@@ -187,7 +187,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Custom Celebration Cakes</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Custom Celebration Cakes</h3>
                 <p className="text-gray-600">
                   From birthdays to weddings, our custom cakes are works of art. Each cake is uniquely designed 
                   and crafted to make your special moments unforgettable.
@@ -204,7 +204,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Gourmet Pastries</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Gourmet Pastries</h3>
                 <p className="text-gray-600">
                   Delicate macarons, rich éclairs, and seasonal fruit tarts. Our pastry collection showcases 
                   the artistry of French patisserie with modern flavors.
@@ -221,7 +221,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Artisan Breads</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Artisan Breads</h3>
                 <p className="text-gray-600">
                   Hand-shaped sourdough, rustic country loaves, and specialty breads. Each loaf is naturally 
                   leavened and baked to create the perfect crust and crumb.
@@ -238,7 +238,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Seasonal Specialties</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Seasonal Specialties</h3>
                 <p className="text-gray-600">
                   Fresh fruit tarts, holiday cookies, and limited-time creations featuring the finest seasonal 
                   ingredients sourced from local farms.
@@ -255,7 +255,7 @@ export default function Home() {
                 }}
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-charcoal font-serif">Coffee & Beverages</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-gray font-serif">Coffee & Beverages</h3>
                 <p className="text-gray-600">
                   Expertly crafted espresso drinks, premium teas, and house-made hot chocolate. The perfect 
                   complement to our baked goods for any time of day.
@@ -369,7 +369,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
             <div className="space-y-8" data-aos="fade-right" data-aos-delay="200">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-charcoal font-serif">Location & Hours</h3>
+                <h3 className="text-2xl font-bold mb-4 text-slate-gray font-serif">Location & Hours</h3>
                 <div className="space-y-2 text-gray-600">
                   <p className="flex items-center gap-3">
                     <i className="fas fa-map-marker-alt text-gold w-5"></i>
@@ -387,7 +387,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-charcoal font-serif">Opening Hours</h3>
+                <h3 className="text-2xl font-bold mb-4 text-slate-gray font-serif">Opening Hours</h3>
                 <div className="space-y-2 text-gray-600">
                   <p className="flex items-center gap-3">
                     <i className="fas fa-clock text-gold w-5"></i>
@@ -405,7 +405,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-charcoal font-serif">Connect With Us</h3>
+                <h3 className="text-2xl font-bold mb-4 text-slate-gray font-serif">Connect With Us</h3>
                 <div className="space-y-2 text-gray-600">
                   <p className="flex items-center gap-3">
                     <i className="fab fa-instagram text-gold w-5"></i>
