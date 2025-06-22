@@ -25,11 +25,16 @@
   --radius: 0.5rem;
   
   /* Custom L'vue Bakery Colors */
-  --gold: hsl(43, 66%, 55%);
-  --navy: hsl(220, 40%, 18%);
-  --cream: hsl(48, 43%, 97%);
-  --light-gray: hsl(210, 20%, 98%);
-  --dark-gray: hsl(215, 13.8%, 46.1%);
+  --peach-beige: #DAB49D;
+  --deep-brown: #6B4226;
+  --vanilla-cream: #FCEFD4;
+  --charcoal-black: #2E2E2E;
+  --honey-orange: #F29D35;
+  --gold: var(--honey-orange);
+  --navy: var(--deep-brown);
+  --cream: var(--vanilla-cream);
+  --light-gray: var(--vanilla-cream);
+  --dark-gray: var(--charcoal-black);
 }
 
 .dark {
@@ -68,8 +73,8 @@
     @apply font-sans antialiased bg-background text-foreground;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: var(--navy);
-    background-color: var(--cream);
+    color: var(--charcoal-black);
+    background-color: var(--vanilla-cream);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -82,23 +87,23 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background: linear-gradient(135deg, rgba(29, 33, 63, 0.95), rgba(29, 33, 63, 0.9));
+    background: linear-gradient(135deg, rgba(107, 66, 38, 0.95), rgba(107, 66, 38, 0.9));
     backdrop-filter: blur(15px);
     z-index: 1000;
     padding: 1.5rem 0;
     transition: all 0.3s ease;
-    border-bottom: 1px solid rgba(209, 168, 72, 0.2);
+    border-bottom: 1px solid rgba(242, 157, 53, 0.2);
   }
 
   .bakery-navbar.scrolled {
-    background: linear-gradient(135deg, rgba(29, 33, 63, 0.98), rgba(29, 33, 63, 0.95));
-    box-shadow: 0 4px 30px rgba(29, 33, 63, 0.3);
+    background: linear-gradient(135deg, rgba(107, 66, 38, 0.98), rgba(107, 66, 38, 0.95));
+    box-shadow: 0 4px 30px rgba(107, 66, 38, 0.3);
     padding: 1rem 0;
   }
 
   .bakery-hero {
     height: 100vh;
-    background: linear-gradient(rgba(29, 33, 63, 0.4), rgba(209, 168, 72, 0.3)),
+    background: linear-gradient(rgba(107, 66, 38, 0.4), rgba(242, 157, 53, 0.3)),
                 url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
     background-size: cover;
     background-position: center;
@@ -111,7 +116,7 @@
 
   .bakery-btn-primary {
     display: inline-block;
-    background: var(--gold);
+    background: var(--honey-orange);
     color: white;
     padding: 1rem 2.5rem;
     text-decoration: none;
@@ -119,15 +124,15 @@
     font-weight: 600;
     font-size: 1.1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(209, 168, 72, 0.3);
+    box-shadow: 0 4px 15px rgba(242, 157, 53, 0.3);
     border: none;
     cursor: pointer;
   }
 
   .bakery-btn-primary:hover {
-    background: hsl(43, 56%, 48%);
+    background: #e8901c;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(209, 168, 72, 0.4);
+    box-shadow: 0 6px 20px rgba(242, 157, 53, 0.4);
     color: white;
   }
 
@@ -140,12 +145,12 @@
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--navy);
+    color: var(--deep-brown);
   }
 
   .bakery-section-subtitle {
     text-align: center;
-    color: var(--dark-gray);
+    color: var(--charcoal-black);
     margin-bottom: 3rem;
     font-style: italic;
   }
@@ -178,12 +183,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(209, 168, 72, 0);
+    background: rgba(242, 157, 53, 0);
     transition: all 0.3s ease;
   }
 
   .bakery-product-card:hover .bakery-product-image::after {
-    background: rgba(209, 168, 72, 0.1);
+    background: rgba(242, 157, 53, 0.1);
   }
 
   .bakery-instagram-post {
@@ -205,7 +210,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(29, 33, 63, 0.8);
+    background: rgba(107, 66, 38, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,7 +223,7 @@
   }
 
   .bakery-footer {
-    background: var(--navy);
+    background: var(--deep-brown);
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -228,32 +233,44 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--gold);
+    color: var(--honey-orange);
   }
 }
 
 @layer utilities {
   .text-gold {
-    color: var(--gold);
+    color: var(--honey-orange);
   }
   
   .text-navy {
-    color: var(--navy);
+    color: var(--deep-brown);
+  }
+  
+  .text-peach-beige {
+    color: var(--peach-beige);
+  }
+  
+  .text-charcoal {
+    color: var(--charcoal-black);
   }
   
   .bg-gold {
-    background-color: var(--gold);
+    background-color: var(--honey-orange);
   }
   
   .bg-navy {
-    background-color: var(--navy);
+    background-color: var(--deep-brown);
   }
   
   .bg-cream {
-    background-color: var(--cream);
+    background-color: var(--vanilla-cream);
   }
   
   .bg-light-gray {
-    background-color: var(--light-gray);
+    background-color: var(--vanilla-cream);
+  }
+  
+  .bg-peach-beige {
+    background-color: var(--peach-beige);
   }
 }
