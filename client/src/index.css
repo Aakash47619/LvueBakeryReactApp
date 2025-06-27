@@ -103,7 +103,7 @@
   .bakery-hero {
     height: 100vh;
     background: linear-gradient(rgba(29, 33, 63, 0.4), rgba(209, 168, 72, 0.3)),
-                url('/Users/aakashray/Desktop/LvueBakeryReactApp/attached_assets/lvue hero bg.png');
+                url('/Users/aakashray/Desktop/Lvue Full web/LvueBakeryReactApp/attached_assets/lvue hero bg.png');
     background-size: cover;
     background-position: center;
     display: flex;
