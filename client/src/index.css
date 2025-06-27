@@ -86,7 +86,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background: linear-gradient(135deg, rgba(29, 33, 63, 0.95), rgba(29, 33, 63, 0.9));
+    background: linear-gradient(135deg,8F684D, 8F684D);
     backdrop-filter: blur(15px);
     z-index: 1000;
     padding: 1.5rem 0;
@@ -95,7 +95,7 @@
   }
 
   .bakery-navbar.scrolled {
-    background: linear-gradient(135deg, rgba(29, 33, 63, 0.98), rgba(29, 33, 63, 0.95));
+    background: linear-gradient(135deg, hsla(240, 71%, 10%, 0.347), rgba(29, 33, 63, 0.95));
     box-shadow: 0 4px 30px rgba(29, 33, 63, 0.3);
     padding: 1rem 0;
   }
@@ -103,7 +103,7 @@
   .bakery-hero {
     height: 100vh;
     background: linear-gradient(rgba(29, 33, 63, 0.4), rgba(209, 168, 72, 0.3)),
-                url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+                url('/Users/aakashray/Desktop/LvueBakeryReactApp/attached_assets/lvue hero bg.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -222,8 +222,8 @@
   }
 
   .bakery-footer {
-    background: var(--deep-navy);
-    color: white;
+    background: #8F684D;;
+    color: rgb(30, 13, 13);
     padding: 2rem 0;
     text-align: center;
   }
